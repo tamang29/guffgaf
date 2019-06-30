@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+*{
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+.actualform label{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.container{
+    float: left;
+    height:auto;
+    width: 100%;
+   overflow: auto;
+
+}
+#text{
+    float: left;
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 10px;
+}
+.images{
+    float: left;
+    height: 80%;
+    width: 60%;
+    /* background: blue; */
+    margin: 3% 2%;
+    text-align: center;
+    color: grey;
+}
+
+.service img{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+.service{
+    float: left;
+    height: auto;
+    width: 75px;
+    text-align: center;
+    margin: 17px;
+}
+.service2{
+    float: left;
+    height: auto;
+    width: 75px;
+    text-align: center;
+    margin: 17px;
+}
+.service2 img{
+    height: 40px;
+    width: 100px;
+    margin: 10%;
+}
+.service p{
+   
+   font-size: 13px;
+}
+#icons{
+    float: left;
+    margin-left: 20%;
+}
+ #assosciation{
+    float: left;
+    height: auto;
+    width: 100%;
+    /* background: red; */
+    text-align: center;
+    
+}
+
+.actualform{
+    float: left;
+    margin:20px 50px;
+    height: auto;
+    width: 25%;
+    background: white;
+    
+    
+}
+.actualform form{
+    margin-top: 20px;
+}
+.actualform input,.actualform select{
+    margin-bottom: 5%;
+    height: 25px;
+    border:1px solid #e6e6e6;
+    padding-left: 5px;
+}
+.actualform input,.actualform select,.actualform label{
+   
+    margin-left: 5%;
+}
+#first,#second{
+    width: 38%;
+}
+.birth{
+    width: 15%;
+}
+.actualform .long{
+    width: 80%;
+}
+.actualform button{
+    margin: 2% 5%;
+    cursor: pointer;
+    width: 90%;
+    height: 5%;
+    border: none;
+    outline: none;
+    transition: all .5s ease-in-out;
+    margin-bottom: 5%;
+    font-variant: small-caps;
+    font-size: 15px;
+
+}
+.actualform button:hover{
+    color: white;
+    background: #009900;
+    transition: all .5s ease-in-out;
+    
+}
+.actualform p{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-right:15px; 
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type='radio']{
+    height: unset;
+}
+#register{
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    background: #f2f2f2;
+    box-shadow: 0px 8px 16px 0px #212121;
+}
+#login{
+    float: left;
+    height:auto;
+    width: 100%;
+    background: #f2f2f2;
+    box-shadow: 0px 8px 16px 0px #212121;
+   
+}
